@@ -1,0 +1,94 @@
+.audioDeFondo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: var(--rosa);
+}
+body {
+  background-image: url(./asets/imagenes/background.jpg);
+  font-size: 1rem;
+  background-size: cover;
+}
+/* #F4C375    #B0C2F2 */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f2e0b1;
+  border-radius: 20px;
+  border: black 2px solid;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 15px;
+  height: 60px;
+}
+section {
+  text-align: center;
+  margin-top: 30px;
+  /* border: solid black 2px; */
+}
+#fondo {
+  border: solid black 2px;
+  margin-left: 10%;
+  margin-right: 10%;
+  background: #b0c2f2;
+}
+
+img {
+  max-width: 700px;
+  max-height: 700px;
+}
+#img {
+  display: none;
+}
+#carro {
+  display: none;
+}
+button {
+  padding: 10px 20px;
+  margin: 3px;
+  border-radius: 20px;
+  border: 2px solid black;
+  font-size: 1.3em;
+  cursor: pointer;
+  box-shadow: 0 3px 15px black;
+}
+button:hover {
+  background-color: #ffe6ff;
+
+  transform: scale(1.03);
+}
+
+#habitacion {
+  display: none;
+}
+
+#patron {
+  display: none;
+}
+#bebida {
+  display: none;
+}
+#animal {
+  display: none;
+}
+#comida {
+  display: none;
+}
+#personaje {
+  display: none;
+}
+#bano {
+  display: none;
+}
+#cancion {
+  display: none;
+}
+@media (max-width: 768px) {
+  img {
+    max-width: 65%;
+    max-height: 65%;
+  }
+}
